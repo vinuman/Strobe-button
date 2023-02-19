@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button{
+    width:100%;
+    height: 100vh;
+    background:linear-gradient(#4851FF, #F02AA6);
+    
+    border:none;
+    border-radius:0rem;
+    font-size: 14rem;
+    cursor: pointer;
+    animation: opacityChange 3s infinite alternate-reverse;
+    
+}
+
+@keyframes opacityChange {
+    from {
+        background:linear-gradient(#4851FF, #F02AA6); 
+        color:#fff;
+        font-size: 14rem;
+    }
+    to{
+        background:linear-gradient(#F02AA6, #4851FF);;
+        color:#333;
+        font-size: 25rem;
+    }
+}
+
+ 
